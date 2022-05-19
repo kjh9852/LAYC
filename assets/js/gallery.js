@@ -21,7 +21,7 @@
         const p = document.createElement('p');
         for(let i = 0; i < BrownCount; i++) {
             itemElem = new Image();
-            itemElem.src = `../assets/setimgs/brown/item${"0" + i }.jpg`;
+            itemElem.src = `./assets/setimgs/brown/item${"0" + i }.jpg`;
             galleryForm.innerHTML += "<div class='item' data-background='brown'><a href='#'></a></div>";
 
             const galleryItem = document.querySelectorAll('.gallery > div > .item > a');
