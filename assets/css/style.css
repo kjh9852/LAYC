@@ -6,6 +6,7 @@ html {
 header {
 }
 main {
+
 }
 body {
     background: #000;
@@ -605,14 +606,26 @@ body {
     height: 100%;
     background: #cb94c1;
 } */
-
+footer {
+    position: relative;
+    width: 100%;
+}
 .footer_infor {
     position: relative;
     overflow: hidden;
+    bottom: 0;
+    padding: 0 30px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 30px;
     box-sizing: border-box;
+}
+.footer_infor .copyright {
+    font-size: 1rem;
+    margin-top: 20px;
+    padding-right: 30px;
+    float: right;
+    color: #fff;
 }
 .footer_infor .footer_left {
     position: relative;
@@ -627,11 +640,9 @@ body {
 .footer_infor .footer_right {
     position: relative;
     padding-right: 30px;
-    float: right;
+    margin-top: 50px;
 }
 .footer_infor .footer_right ul {
-    margin-top: 30px;
-    display: block;
     text-align: right;
 }
 .footer_infor .footer_right .copyright {
@@ -639,7 +650,12 @@ body {
     color: #fff;
 }
 .footer_infor .footer_right ul li a {
+    font-size: 1rem;
     color: #cb94c1;
+    transition: .3s ease-in-out;
+}
+.footer_infor .footer_right ul li a:hover {
+    color: #fff;
 }
 .top_btn {
     position: fixed;
