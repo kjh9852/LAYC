@@ -57,10 +57,19 @@
         width: 100%;
         height: 90px;
     }
+    .content01 {
+        padding: 0 20px;
+    }
+    .content02{
+        padding: 0 20px;
+    }
     .sec01 .flex_box,
     .sec02 .flex_box,
     .sec04 .flex_box {
         flex-direction: column;
+    }
+    .sec01 .flex_box .right_box ul {
+        justify-content: space-between;
     }
     .sec04 .flex_box {
         align-items: center;
@@ -75,13 +84,14 @@
     .sec01 .flex_box .right_box,
     .sec02 .flex_box .right_box,
     .sec04 .flex_box .right_box {
-        margin-top: 30px;
+        margin-top: 5%;
     }
     .sec04 .flex_box .right_box {
         width: 50%;
     }
     .sec01 .content01 .flex_box .right_box ul li {
         width: 48.4%;
+        margin-right: 0;
     }
     .content02 .flex_box .right_box {
         padding: 0;
@@ -95,6 +105,9 @@
     .col03 {
         width: 100%;
         flex: 0 0 100%;
+    }
+    .buy-an-ape {
+        padding: 50px 20px 0px 20px;
     }
     .bayc-bg {
         padding: 20px 25px;
@@ -167,7 +180,7 @@
     #nav {
         flex-wrap: wrap;
         justify-content:space-between;
-        padding: 5px 20px;
+        padding: 15px 20px;
     }
     .title {
         flex: 0 0 0;
