@@ -35,12 +35,13 @@
             // console.log(itemElem);
         }
     }
+
     function PurpleRender(){
         let itemElem;
         const p = document.createElement('p');
         for(let i = 0; i < PurpleCount; i++) {
             itemElem = new Image();
-            itemElem.src = `../assets/setimgs/purple/item${"0" + i }.jpg`;
+            itemElem.src = `./assets/setimgs/purple/item${"0" + i }.jpg`;
             galleryForm.innerHTML += "<div class='item' data-background='purple'><a href='#'></a></div>";
 
             const galleryItem = document.querySelectorAll('.gallery > div > .item > a');
@@ -54,12 +55,13 @@
             // console.log(itemElem);
         }
     }
+
     function SkublueRender(){
         let itemElem;
         const p = document.createElement('p');
         for(let i = 0; i < SkyeblueCount; i++) {
             itemElem = new Image();
-            itemElem.src = `../assets/setimgs/skyblue/item${"0" + i }.jpg`;
+            itemElem.src = `./assets/setimgs/skyblue/item${"0" + i }.jpg`;
             galleryForm.innerHTML += "<div class='item' data-background='skyblue'><a href='#'></a></div>";
 
             const galleryItem = document.querySelectorAll('.gallery > div > .item > a');
@@ -73,12 +75,13 @@
             // console.log(itemElem);
         }
     }
+
     function GreenRender(){
         let itemElem;
         const p = document.createElement('p');
         for(let i = 0; i < GreenCount; i++) {
             itemElem = new Image();
-            itemElem.src = `../assets/setimgs/green/item${"0" + i }.jpg`;
+            itemElem.src = `./assets/setimgs/green/item${"0" + i }.jpg`;
             galleryForm.innerHTML += "<div class='item' data-background='green'><a href='#'></a></div>";
 
             const galleryItem = document.querySelectorAll('.gallery > div > .item > a');
@@ -92,6 +95,7 @@
             // console.log(itemElem);
         }
     }
+
     function Filtering() {
         BrownRender();
         PurpleRender();
@@ -107,6 +111,7 @@
                 for(let j = 0; j < itemColor.length; j++){
                     itemColor[j].classList.remove('active');
                 }
+
                 target.classList.add('active');
                 reset.addEventListener('click', () => {
                     for(let i = 0; i < items.length; i++) {
@@ -127,14 +132,16 @@
             });
         }
     }
+
+    
     function Fadein(index) {
         index.classList.add('active');
     }
+
     window.addEventListener('load', () => {
         Fadein(title);
         Fadein(gallery);
         Fadein(filterBox);
-        Filtering();
-        Fadein();
     });
+    Filtering();
 })();
