@@ -102,9 +102,15 @@
     .sec02 .right_box {
         padding: 0;
     }
+    .sec03 .content02 ul li:last-child p {
+        margin-top: 5px;
+    }
     .col03 {
         width: 100%;
         flex: 0 0 100%;
+    }
+    .col03:nth-child(3) {
+        width: 55%;
     }
     .buy-an-ape {
         padding: 50px 20px 0px 20px;
@@ -117,8 +123,8 @@
         text-align: center;
     }
     .bayc-bg a {
-        width: 290px;
-        padding: 25px 30px;
+        width: auto;
+        padding: 10px 30px;
         margin: 0 auto;
     }
     .sec03 .content01 .flex_box .left_box {
@@ -136,7 +142,7 @@
     .footer_infor .copyright {
         position: absolute;
         padding-left: 30px;
-        bottom: 50px; left: 20px;
+        bottom: 55px; left: 20px;
         float: left;
     }
     .footer_infor .footer_right {
@@ -161,29 +167,30 @@
     .sec03 .content01 .flex_box .desc {
         padding: 0;
     }
+    .sec03 .content02 ul {
+        padding: 0;
+        text-align: left;
+    }
+    .sec03 .content02 ul li .desc {
+        position: absolute;
+        top: 20px;
+        display: inline-block;
+    }
     .sec03 .content02 ul li {
+        clear: both;
         position: relative;
         width: 100%;
         margin-right: 0;
+        margin-bottom: 20px;
     }
     .sec03 .content02 ul li img {
         width: 25%;
-        margin-right: 700px;
     }
-    .sec03 .content02 ul li span {
-        position: absolute;
-        padding-left: 140px;
-        top: 30px; left: 0;
+    .sec03 .content02 ul li p {
+        margin-top: 5px;
     }
     .sec03 .content02 ul li span > br {
         display: none;
-    }
-    .sec03 .content02 ul li p {
-        position: absolute;
-        padding-left: 140px;
-        margin-top: 5px;
-        top: 50px; left: 0;
-        box-sizing: border-box;
     }
     .footer_infor{
         max-width: 540px;
@@ -236,6 +243,11 @@
     }
     .footer_infor {
         max-width: 540px;
+    }
+}
+@media (max-width: 660px) {
+    .top_btn {
+        bottom: 120px;
     }
 }
 @media (max-width: 430px)  {

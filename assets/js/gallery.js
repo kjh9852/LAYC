@@ -21,7 +21,7 @@
         const p = document.createElement('p');
         for(let i = 0; i < BrownCount; i++) {
             itemElem = new Image();
-            itemElem.src = `../assets/imgs/img/brown/item${"0" + i }.jpg`;
+            itemElem.src = `../assets/setimgs/brown/item${"0" + i }.jpg`;
             galleryForm.innerHTML += "<div class='item' data-background='brown'><a href='#'></a></div>";
 
             const galleryItem = document.querySelectorAll('.gallery > div > .item > a');
@@ -40,7 +40,7 @@
         const p = document.createElement('p');
         for(let i = 0; i < PurpleCount; i++) {
             itemElem = new Image();
-            itemElem.src = `../assets/imgs/img/purple/item${"0" + i }.jpg`;
+            itemElem.src = `../assets/setimgs/purple/item${"0" + i }.jpg`;
             galleryForm.innerHTML += "<div class='item' data-background='purple'><a href='#'></a></div>";
 
             const galleryItem = document.querySelectorAll('.gallery > div > .item > a');
@@ -59,7 +59,7 @@
         const p = document.createElement('p');
         for(let i = 0; i < SkyeblueCount; i++) {
             itemElem = new Image();
-            itemElem.src = `../assets/imgs/img/skyblue/item${"0" + i }.jpg`;
+            itemElem.src = `../assets/setimgs/skyblue/item${"0" + i }.jpg`;
             galleryForm.innerHTML += "<div class='item' data-background='skyblue'><a href='#'></a></div>";
 
             const galleryItem = document.querySelectorAll('.gallery > div > .item > a');
@@ -78,7 +78,7 @@
         const p = document.createElement('p');
         for(let i = 0; i < GreenCount; i++) {
             itemElem = new Image();
-            itemElem.src = `../assets/imgs/img/green/item${"0" + i }.jpg`;
+            itemElem.src = `../assets/setimgs/green/item${"0" + i }.jpg`;
             galleryForm.innerHTML += "<div class='item' data-background='green'><a href='#'></a></div>";
 
             const galleryItem = document.querySelectorAll('.gallery > div > .item > a');
