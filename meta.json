@@ -449,7 +449,7 @@
             },
             {
                 "trait_type": "Head",
-                "value": "Horns"
+                "value": "Silver Point Snapback"
             },
             {
                 "trait_type": "Earring",
@@ -1143,10 +1143,6 @@
             {
                 "trait_type": "Head",
                 "value": "Blue Bandana"
-            },
-            {
-                "trait_type": "Earring",
-                "value": "Silver Feathering"
             }
         ],
         "hash": "473d8d228be64c6da51d783714a563bf"
@@ -7247,11 +7243,11 @@
         "attributes": [
             {
                 "trait_type": "Background",
-                "value": "New Punk Blue"
+                "value": "Aquamarine"
             },
             {
                 "trait_type": "Fur",
-                "value": "Pink"
+                "value": "Solid Gold"
             },
             {
                 "trait_type": "Face",
@@ -7259,7 +7255,7 @@
             },
             {
                 "trait_type": "Earring",
-                "value": "Silver Feathering"
+                "value": "Dots Earrings"
             }
         ],
         "hash": "b6772c2f040560124f7d5a1ced7c6171"
@@ -7689,11 +7685,11 @@
         "attributes": [
             {
                 "trait_type": "Background",
-                "value": "Aquamarine"
+                "value": "New Punk Blue"
             },
             {
                 "trait_type": "Fur",
-                "value": "Solid Gold"
+                "value": "Pink"
             },
             {
                 "trait_type": "Face",
@@ -7701,11 +7697,7 @@
             },
             {
                 "trait_type": "Earring",
-                "value": "Dot Earrings"
-            },
-            {
-                "trait_type": "Head",
-                "value": "Blackfur Snapback"
+                "value": "Silver Feathering"
             },
             {
                 "trait_type": "Necklace",
