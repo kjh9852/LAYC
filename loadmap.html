@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The Lonely Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs— unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, and grants access to members-only benefits.">
+    <title>LAYC</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <!-- 스타일 시트 -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- 웹 폰트 -->
+
+    <link rel="shortcut icon" href="assets/icons/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="assets/icons/favicon_72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="96x96" href="assets/icons/favicon_96.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/icons/favicon_144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="192x192" href="assets/icons/favicon_192.png" />
+    <!-- 파비콘 -->
+
+    <meta property="og:site_name" content="Lonely Ape Yacht Club">
+    <meta property="og:type" content="Lonely Ape Yacht Club">
+    <meta property="og:title" content="Lonely Ape Yacht Club">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="http://lonelyapeyachtclub.com/">
+    <meta property="og:description"
+        content="A limited NFT collection where the token itself doubles as your membership to a swamp club for apes. The club is open! Ape in with us.">
+    <!-- 페이스북 메타 태그 -->
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Lonely Ape Yacht Club">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:url" content="http://lonelyapeyachtclub.com/">
+    <meta name="twitter:description"
+        content="A limited NFT collection where the token itself doubles as your membership to a swamp club for apes. The club is open! Ape in with us.">
+    <!-- 트위터 메타 태그 -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!-- JS -->
+</head>
+
+<body>
+    <audio id="audio-source" src="./assets/audio/Bgm.mp3" type="audio/mp3"></audio>
+    <header>
+        <nav id="nav" class="loadmap">
+            <div class="logo loadmap">
+                <a href="home.html">
+                    <img src="assets/imgs/logo02.png" alt="logo">
+                </a>
+            </div>
+            <div class="glo_nav">
+                <ul>
+                    <li>
+                        <a href="home.html#buy">BUY AN APE</a>
+                    </li>
+                    <li>
+                        <a href="home.html#team">TEAM</a>
+                    </li>
+                    <li class="active">
+                        <a href="loadmap.html">ROADMAP</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">GALLERY</a>
+                    </li>
+                    <li>
+                        <a href="#">MEMBERS</a>
+                    </li>
+                    <li>
+                        <button id="play" onclick="play()" class="bgm"></button>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile_btn">
+                <a href="#">
+                    <span></span>
+                </a>
+            </div>
+            <div class="mglo_nav">
+                <ul>
+                    <li>
+                        <a href="home.html">BUY AN APE</a>
+                    </li>
+                    <li>
+                        <a href="home.html">TEAM</a>
+                    </li>
+                    <li class="active">
+                        <a href="loadmap.html">ROADMAP</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">GALLERY</a>
+                    </li>
+                    <li>
+                        <a href="#">MEMBERS</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social_nav">
+                <ul>
+                    <li>
+                        <a href="#" class="twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="discord"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="mobile">
+            <a href="home.html">
+                <img src="assets/imgs/loadmap_logo.png" alt="loadmap_logo">
+            </a>
+        </div>
+    </header>
+    <div class="container loadmap">
+        <div class="loadmap_logo">
+            <div class="main_logo">
+                <img src="assets/imgs/loadmap_logo.png" alt="loadmap_logo">
+            </div>
+        </div>
+        <div class="loadmap01">
+            <div class="loadmap_mission">
+            </div>
+            <div class="diamond">
+                <div class="diamond_img"></div>
+                <div class="loadmap_txt">
+                    <h2>Diamond</h2>
+                    <p>LAC's unique utility token is the ‘Diamond’. <br>
+                        These have no real market value outside of LAC. <br>
+                        Holders can earn ‘Diamonds’ through mission <br>
+                        and use them to purchase items through the LAC Shop.
+                    </p>
+                </div>
+            </div>
+            <div class="yoat">
+                <div class="yoat_img"></div>
+                <div class="loadmap_txt">
+                    <h2>Yacht Club</h2>
+                    <p>Actual real-life exclusive Yacht Party to be held in Dubai. <br>
+                        Details of this exclusive event will be updated at a later date.</p>
+                </div>
+            </div>
+            <div class="tarocard">
+                <div class="tarocard_img"></div>
+                <div class="loadmap_txt">
+                    <h2>BAYC Holder Event</h2>
+                    <p>100 people holding the most expensive <br>
+                        BAYCs will each receive 1 LAC for free. <br>
+                        Holders will be rewarded automatically <br>
+                        with Super DNA.</p>
+                </div>
+            </div>
+            <div class="sdna">
+                <div class="sdna_img"></div>
+                <div class="msdna_img"></div>
+                <div class="loadmap_txt02">
+                    <h2>Super DNA</h2>
+                    <p>Super DNA has a higher chance <br>
+                        to breed high-tier Baby Apes <br>
+                        and this is only offered to BAYC holders. <br>
+                        Breeding can be done after purchasing <br>
+                        a Jewelry Box required for breeding.</p>
+                </div>
+            </div>
+            <div class="shop">
+                <div class="shop_img"></div>
+                <div class="loadmap_txt">
+                    <h2>LAC shop</h2>
+                    <p>A store with various content for LAC holders. <br>
+                        Holders can use Diamonds to purchase items in the LAC Shop. </p>
+                </div>
+            </div>
+        </div>
+        <div class="loadmap02">
+            <div class="jewelrybox">
+                <div class="jewelrybox_img"></div>
+                <div class="loadmap_txt02">
+                    <h2>Jewelry Box</h2>
+                    <p>A ‘Jewelry Box’ is required to breed Baby <br>
+                        Apes when used together with ‘DNA’ <br>
+                        (similar to an incubator). <br>
+                        Each Jewelry Box is sold for 600 Diamond Tokens.</p>
+                </div>
+            </div>
+            <div class="key">
+                <div class="key_img"></div>
+                <div class="loadmap_txt02">
+                    <h2>Key</h2>
+                    <p>The ‘key’ is used to open the ‘Powder Room’. <br>
+                        The price is yet to be determined.</p>
+                </div>
+            </div>
+            <div class="dna">
+                <div class="dna_img"></div>
+                <div class="loadmap_txt02">
+                    <h2>DNA</h2>
+                    <p>A ‘DNA’ is required to breed Baby Apes <br>
+                        when used together with a ‘Jewelry Box’. <br>
+                        Each DNA is sold for 300 Diamond Tokens.</p>
+                </div>
+            </div>
+            <div class="mystery">
+                <div class="mystery_img"></div>
+                <div class="loadmap_txt02">
+                    <h2>Mystery Ticket</h2>
+                    <p>A Mystery Ticket allows holders <br>
+                        to participate in various upcoming content. <br>
+                        The tickets can be found in the Powder Room. </p>
+                </div>
+            </div>
+            <div class="dress">
+                <div class="dress_img"></div>
+                <div class="loadmap_txt02">
+                    <h2>Powder Room</h2>
+                    <p>A dressing table that contains mystery tickets. <br>
+                        The price is yet to be determined. </p>
+                </div>
+            </div>
+        </div>
+        <div class="loadmap03">
+            <div class="babyapes">
+                <div class="babyapes_img"></div>
+                <div class="loadmap_txt">
+                    <h2>Baby Apes</h2>
+                    <p>Baby Apes are divided into three tiers: <br>
+                        Silver, Gold, and Diamond. Tier Grades <br>
+                        are given randomly when bred using ‘DNA’ and a ‘Jewelry Box’.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container loadmap_mobile">
+        <div class="loadmap_logo">
+            <div class="main_logo">
+                <img src="assets/imgs/loadmap_logo.png" alt="loadmap_logo">
+            </div>
+        </div>
+        <div class="loadmap01">
+            <div class="loadmap_mission">
+            </div>
+            <div class="diamond">
+                <div class="diamond_img"></div>
+                <div class="loadmap_txt">
+                    <h2>Diamond</h2>
+                    <p>LAC's unique utility token is the ‘Diamond’. <br>
+                        These have no real market value outside of LAC. <br>
+                        Holders can earn ‘Diamonds’ through mission <br>
+                        and use them to purchase items through the LAC Shop.
+                    </p>
+                </div>
+            </div>
+            <div class="yoat">
+                <div class="yoat_img"></div>
+                <div class="loadmap_txt">
+                    <h2>Yacht Club</h2>
+                    <p>Actual real-life exclusive Yacht Party to be held in Dubai. <br>
+                        Details of this exclusive event will be updated at a later date.</p>
+                </div>
+            </div>
+            <div class="tarocard">
+                <div class="tarocard_img"></div>
+                <div class="loadmap_txt">
+                    <h2>BAYC Holder Event</h2>
+                    <p>100 people holding the most expensive <br>
+                        BAYCs will each receive 1 LAC for free. <br>
+                        Holders will be rewarded automatically <br>
+                        with Super DNA.</p>
+                </div>
+            </div>
+            <div class="sdna">
+                <div class="sdna_img"></div>
+                <div class="msdna_img"></div>
+                <div class="loadmap_txt02">
+                    <h2>Super DNA</h2>
+                    <p>Super DNA has a higher chance <br>
+                        to breed high-tier Baby Apes <br>
+                        and this is only offered to BAYC holders. <br>
+                        Breeding can be done after purchasing <br>
+                        a Jewelry Box required for breeding.</p>
+                </div>
+            </div>
+            <div class="shop">
+                <div class="shop_img"></div>
+                <div class="loadmap_txt">
+                    <h2>LAC shop</h2>
+                    <p>A store with various content for LAC holders. <br>
+                        Holders can use Diamonds to purchase items in the LAC Shop. </p>
+                </div>
+            </div>
+        </div>
+        <div class="loadmap02">
+            <div class="jewelrybox">
+                <div class="jewelrybox_img"></div>
+                <div class="loadmap_txt02">
+                    <h2>Jewelry Box</h2>
+                    <p>A ‘Jewelry Box’ is required to breed Baby <br>
+                        Apes when used together with ‘DNA’ <br>
+                        <br>
+                        </p>
+                </div>
+            </div>
+            <div class="key">
+                <div class="key_img"></div>
+                <div class="loadmap_txt02">
+                    <h2>Key</h2>
+                    <p>The ‘key’ is used to open the ‘Powder Room’. <br>
+                        The price is yet to be determined.</p>
+                </div>
+            </div>
+            <div class="dna">
+                <div class="dna_img"></div>
+                <div class="loadmap_txt02">
+                    <h2>DNA</h2>
+                    <p>A ‘DNA’ is required to breed Baby Apes <br>
+                        when used together with a ‘Jewelry Box’. <br>
+                        Each DNA is sold for 300 Diamond Tokens.</p>
+                </div>
+            </div>
+            <div class="mystery">
+                <div class="mystery_img"></div>
+                <div class="loadmap_txt02">
+                    <h2>Mystery Ticket</h2>
+                    <p>A Mystery Ticket allows holders <br>
+                        to participate in various upcoming content. <br>
+                        The tickets can be found in the Powder Room. </p>
+                </div>
+            </div>
+            <div class="dress">
+                <div class="dress_img"></div>
+                <div class="loadmap_txt02">
+                    <h2>Powder Room</h2>
+                    <p>A dressing table that contains mystery tickets.
+                        <span>
+                            The price is yet to be determined.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="loadmap03">
+            <div class="babyapes">
+                <div class="babyapes_img"></div>
+                <div class="loadmap_txt">
+                    <h2>Baby Apes</h2>
+                    <p>Baby Apes are divided into three tiers: <br>
+                        Silver, Gold, and Diamond. Tier Grades <br>
+                        are given randomly when bred using ‘DNA’ and a ‘Jewelry Box’.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container loadmap_footer">
+            <div class="footer_logo">
+                <img src="assets/imgs/footer_icon02.png" alt="footer_logo">
+            </div>
+            <div class="footer_social">
+                <ul>
+                    <li>
+                        <a href="" class="twitter"></a>
+                    </li>
+                    <li>
+                        <a href="" class="discord"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>© TNC IT GROUP</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script>
+        var audio = document.getElementById("audio-source");
+        var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        var source = audioCtx.createMediaElementSource(audio);
+        var gainNode = audioCtx.createGain();
+
+        var gainConnected = source.connect(gainNode);
+        gainConnected.connect(audioCtx.destination);
+        const bgmBtn = document.querySelector('.bgm');
+
+        bgmBtn.addEventListener('click', () => {
+            bgmBtn.classList.toggle('on');
+        });
+        function play() {
+            if (audio.paused) {
+                audio.play()
+            }
+            else {
+                audio.pause()
+            }
+        }
+    </script>
+</body>
+
+</html>
