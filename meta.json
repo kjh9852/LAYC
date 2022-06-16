@@ -2981,9 +2981,12 @@
                 "Fur": "Zombie",
                 "Clothes": "Golf Collar Tee",
                 "Head": [{
-                    "Hair": "Green Short Hair",
+                    "Head01": "Green Short Hair"
+                },
+                {
                     "Head02": "Brown Suncap"
-                }],
+                }
+                ],
                 "Earring": "Gold Three Earrings"
             },
         "hash": "https://www.strmnft.com/digital/view/173/1"
