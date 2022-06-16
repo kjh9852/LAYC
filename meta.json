@@ -2980,10 +2980,8 @@
                 "Eyes": "Oops",
                 "Fur": "Zombie",
                 "Clothes": "Golf Collar Tee",
-                "Head": [{
-                    "Head01": "Green Short Hair"
-                },
-                {
+                "Head": [ "Green Short Hair",
+                { 
                     "Head02": "Brown Suncap"
                 }
                 ],
