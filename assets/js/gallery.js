@@ -107,62 +107,38 @@
             div.classList.add('item');
             div.setAttribute('data-num', meta[i].name);
 
-            if (meta[i].attributes[0].value === "Special") {
-                div.setAttribute('data-special', meta[i].attributes[0].value);
+            if (meta[i].attributes.Background) {
+                div.setAttribute('data-background', meta[i].attributes.Background);
             }
-            if (meta[i].attributes[0] && meta[i].attributes[0].value !== "Special") {
-                div.setAttribute('data-background', meta[i].attributes[0].value);
+            if (meta[i].attributes.Mouth) {
+                div.setAttribute('data-mouth', meta[i].attributes.Mouth);
             }
-            if (meta[i].attributes[1] && meta[i].attributes[1].trait_type === "Face") {
-                div.setAttribute('data-face', meta[i].attributes[1].value);
-            } else if (meta[i].attributes[1] && meta[i].attributes[1].trait_type === "Fur") {
-                div.setAttribute('data-fur', meta[i].attributes[1].value);
+            if (meta[i].attributes.Fur) {
+                div.setAttribute('data-fur', meta[i].attributes.Fur);
             }
-            if (meta[i].attributes[2] && meta[i].attributes[2].trait_type === "Fur") {
-                div.setAttribute('data-Fur', meta[i].attributes[2].value);
-            } else if (meta[i].attributes[1] && meta[i].attributes[2].trait_type === "Face") {
-                div.setAttribute('data-face', meta[i].attributes[2].value);
+            if (meta[i].attributes.Clothes) {
+                div.setAttribute('data-clothes', meta[i].attributes.Clothes);
             }
-            if (meta[i].attributes[3] && meta[i].attributes[3].trait_type === "Clothes") {
-                div.setAttribute('data-clothes', meta[i].attributes[3].value);
-            } else if (meta[i].attributes[3] && meta[i].attributes[3].trait_type === "Head") {
-                div.setAttribute('data-head', meta[i].attributes[3].value);
-            } else if (meta[i].attributes[3] && meta[i].attributes[3].trait_type === "Necklace") {
-                div.setAttribute('data-necklace', meta[i].attributes[3].value);
-            } else if (meta[i].attributes[3] && meta[i].attributes[3].trait_type === "Glasses") {
-                div.setAttribute('data-glasses', meta[i].attributes[3].value);
-            } else if (meta[i].attributes[3] && meta[i].attributes[3].trait_type === "Face") {
-                div.setAttribute('data-face', meta[i].attributes[3].value);
-            } else if (meta[i].attributes[3] && meta[i].attributes[3].trait_type === "Earring") {
-                div.setAttribute('data-earring', meta[i].attributes[3].value);
+            if (meta[i].attributes.Necklace) {
+                div.setAttribute('data-necklace', meta[i].attributes.Necklace);
             }
-
-            if (meta[i].attributes[4] && meta[i].attributes[4].trait_type === "Necklace") {
-                div.setAttribute('data-necklace', meta[i].attributes[4].value);
-            } else if (meta[i].attributes[4] && meta[i].attributes[4].trait_type === "Glasses") {
-                div.setAttribute('data-glasses', meta[i].attributes[4].value);
-            } else if (meta[i].attributes[4] && meta[i].attributes[4].trait_type === "Head") {
-                div.setAttribute('data-head', meta[i].attributes[4].value);
-            } else if (meta[i].attributes[4] && meta[i].attributes[4].trait_type === "Earring") {
-                div.setAttribute('data-earring', meta[i].attributes[4].value);
+            if (meta[i].attributes.Glasses) {
+                div.setAttribute('data-glasses', meta[i].attributes.Glasses);
             }
-
-            if (meta[i].attributes[5] && meta[i].attributes[5].trait_type === "Glasses") {
-                div.setAttribute('data-glasses', meta[i].attributes[5].value);
-            } else if (meta[i].attributes[5] && meta[i].attributes[5].trait_type === "Head") {
-                div.setAttribute('data-head', meta[i].attributes[5].value);
-            } else if (meta[i].attributes[5] && meta[i].attributes[5].trait_type === "Earring") {
-                div.setAttribute('data-earring', meta[i].attributes[5].value);
+            if (meta[i].attributes.Head) {
+                div.setAttribute('data-head', meta[i].attributes.Head);
             }
-
-            if (meta[i].attributes[6] && meta[i].attributes[6].trait_type === "Head") {
-                div.setAttribute('data-head', meta[i].attributes[6].value);
-            } else if (meta[i].attributes[6] && meta[i].attributes[6].trait_type === "Earring") {
-                div.setAttribute('data-earring', meta[i].attributes[6].value);
+            if (meta[i].attributes.Earring) {
+                div.setAttribute('data-earring', meta[i].attributes.Earring);
             }
-
-            if (meta[i].attributes[7]) {
-                div.setAttribute('data-earring', meta[i].attributes[7].value);
+            if (meta[i].attributes.Eyes) {
+                div.setAttribute('data-eyes', meta[i].attributes.Eyes);
+            }
+            if (meta[i].attributes.Head02) {
+                div.setAttribute('data-head02', meta[i].attributes.Head02);
+            }
+            if (meta[i].attributes.Special) {
+                div.setAttribute('data-special', meta[i].attributes.Special);
             }
             div.appendChild(myPara1);
             section.appendChild(div);
